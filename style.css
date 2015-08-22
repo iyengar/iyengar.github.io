@@ -1,0 +1,27 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:20px;
+    color:#333;
+    padding:40px;
+    margin:0 auto;
+    text-rendering: optimizeLegibility;
+    width: 700px;
+}
+
+a {
+    color:#4863A0;
+    text-decoration:none;
+}
+
+a:visited {
+    color:#4863A0;
+    text-decoration:none;
+}
+
+li {
+    margin-bottom:8px;
+}
+
+.secondary {
+    font-size:18px;
+}
