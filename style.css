@@ -25,3 +25,8 @@ li {
 .secondary {
     font-size:18px;
 }
+
+.date {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
