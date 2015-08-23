@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <link href="../style.css" rel="stylesheet" type="text/css" media="screen">
+    <title>Three Key Themes from the First AWS Developer Conference - Sameer Iyengar</title>
+  </head>
+  <body>
+    <h3><a href="/">Sameer Iyengar</a></h3>
+
+    <h1>Three Key Themes from the First AWS Developer Conference</h1>
+    <div class="date">December 2012</div>
+
+    <a href="http://instagram.com/p/SlJayaAEvD/">
+      <img title="Conference or Concert?"
+           src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11226824_424171907760956_685650161_n.jpg"
+           alt="Conference or Concert?" width="428" height="428" />
+    </a>
+
+    <p>
+      Amazon pulled out all the stops to throw their first Amazon Web Services
+      (AWS) developers conference last week.  Here are three key themes I
+      noticed from the talks they scheduled to fill the time between the laser
+      light shows, delicious food and abundant drinks.
+    </p>
+    <h3>1. Design for failure (and simulate failures)</h3>
+    <p>
+      I lost count of how many speakers stressed the need to be in multiple
+      availability zones.  This is easy to do, and is even easier if you start
+      this from the beginning rather than trying to migrate later on.  The last
+      few EC2 outages resulted in
+      <a href="http://venturebeat.com/2012/10/22/amazon-cloud-outage-takes-down-reddit-airbnb-flipboard-more/">downtime for many popular sites</a>
+      and some bad publicity for AWS.  In response, the team is making it clear
+      that machine failures are expected and
+      <strong>a redundant architecture is required</strong>.
+    </p>
+    <p>
+      More importantly, regularly testing failure cases avoids surprises when
+      they happen in real life.  Two strategies:
+    </p>
+    <ol>
+      <li>Closely mirror your development environment to your production
+        configuration and test machine failure and upgrades regularly.
+      </li>
+      <li>Simulate failure in your production systems.  For example, take down
+        all the machines in one availability zone and ensure that everything is
+        still working.  Netflix has a great tool called
+        <a href="https://github.com/Netflix/SimianArmy/wiki">ChaosMonkey</a>
+        that makes it easy to run "fire drills" like this.
+      </li>
+    </ol>
+
+    <h3>2. Automate (and monitor) everything</h3>
+    <p>
+      The obvious advantage of cloud computing is the ability to scale capacity to
+      meet demand.  <strong>The hidden advantage is the ability to do this
+        automatically.</strong> For example,
+      <a href="http://aws.amazon.com/autoscaling/">Auto Scaling</a> allows you to
+      automatically launch and terminate new EC2 instances based on defined
+      metrics or on a recurring schedule. This creates an architecture that can
+      respond to unexpected user access patterns the same way that a redundant
+      architecture can automatically respond to unexpected machine failures.
+    </p>
+    <p>
+      Another example of how to utilize swing capacity is for deployment.
+      Rather than update existing machines, launch a new cluster of machines with
+      the new code and point traffic to them.  Rolling back is as simple as
+      pointing traffic back to the old machines.  If everything is working, tear
+      down the old ones.
+    </p>
+
+    <p>
+      This has two implications for monitoring:
+    </p>
+    <ol>
+      <li>Careful performance monitoring is the best weapon in architecture
+        tuning. The challenge is to identify the right configuration for your
+        application. The logistical and financial headache of transitioning to
+        that configuration no longer exists.
+      </li>
+      <li>
+        Developers can factor in cost as part of the optimization process.  This
+        is especially advantageous to startups that need to manage cashflow.
+      </li>
+    </ol>
+
+    <h3>3. Data, Data, Data</h3>
+    <p>
+      Immediate access to large amounts of processing and storage capability has
+      always appealed to data enthusiasts, but its clear that companies are
+      making serious progress in this area.  For example, Netflix has built a
+      data processing architecture in which
+      <strong>S3 is their "data warehouse"</strong> and EMR jobs run when they
+      need to interact with the data.
+    </p>
+    <p>
+      There are many best practices around the extraction and transform stages
+      of a data warehouse pipeline (essentially, save everything to S3 and use
+      EMR).  I'm excited to see more progress in the later two stages &mdash;
+      warehousing and analytics.
+    </p>
+    <ol>
+      <li>
+        Warehousing: Treating S3 as a data warehouse is clever but makes on the
+        fly queries difficult.  Amazon's
+        <a href="http://aws.amazon.com/redshift/">Redshift</a> aims to fill this
+        gap with a more traditional data warehouse product.
+      </li>
+      <li>
+        Analytics: This is the area that I'm most excited for given how
+        cumbersome it is to generate customized reports and charts.  Most
+        companies that aren't using a traditional enterprise solution like
+        MicroStrategy have had to invest considerable energy to roll their
+        own solution.
+      </li>
+    </ol>
+
+    <p>
+      If you want to relive the <del>brainwashing</del> magic, here are some of
+      the highlight sessions:
+    </p>
+    <ul>
+      <li>
+        <a href="http://www.youtube.com/watch?v=O4MtQGRIIuA">Fireside Chat</a>
+        with Jeff Bezos
+      </li>
+      <li>
+        <a href="http://www.slideshare.net/adrianco/high-availability-architecture-at-netflix">
+          Highly Available Architecture at Netflix</a> by
+        <a href="https://twitter.com/adrianco">Adrian Cockcroft</a>
+      </li>
+      <li>
+        <a href="http://www.youtube.com/watch?v=PW1lhU8n5So">Keynote</a> by
+        <a href="https://twitter.com/werner">Werner Vogels</a>
+      </li>
+      <li>
+        <a href="http://www.slideshare.net/AmazonWebServices/bdt303-netflix-data-science-with-emr">
+          Data Science at Netflix with Elastic MapReduce</a> by Kurt Brown
+      </li>
+    </ul>
+
+  </body>
+</html>
