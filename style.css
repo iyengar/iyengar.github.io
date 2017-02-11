@@ -1,32 +1,63 @@
+/* STYLES
+ ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size:20px;
-    color:#333;
-    padding:40px;
-    margin:0 auto;
-    text-rendering: optimizeLegibility;
-    width: 700px;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.15; /* 2 */
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 1.5em;
+  text-rendering: optimizeLegibility;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
-a {
-    color:#0059b3;
-    text-decoration:none;
+@media (min-width: 768px) {
+  /**
+   * 1. Increase the type size for large devices.
+   * 2. Increase page padding for large devices.
+   */
+  body {
+    font-size: 20px; /* 1 */
+    padding: 2.5em; /* 2 */
+  }
 }
 
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a,
 a:visited {
-    color:#0059b3;
-    text-decoration:none;
+  background-color: transparent; /* 1 */
+  color:#0059b3;
+  text-decoration: none;
+
+  -webkit-text-decoration-skip: objects; /* 2*/
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
 }
 
 li {
-    margin-bottom:8px;
+  margin-bottom: .5em;
 }
 
 .secondary {
-    font-size:18px;
+  font-size: .9em;
 }
 
 .date {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: .9em;
+  margin-bottom: .5em;
 }
