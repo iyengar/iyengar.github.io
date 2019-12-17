@@ -1,0 +1,212 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <title>Sameer Iyengar └[∵┌]└[ ∵ ]┘[┐∵]┘</title>
+  </head>
+  <body>
+
+    <h1>Hello! I'm Sameer.</h1>
+    <p>
+      I'm the co-founder and CTO of <a href="http://www.beautylish.com/">Beautylish</a>.
+      We're building a compelling new retail model centered around providing
+      a high level of personal service.  We help you figure out which products
+      will work well for you and teach you how to get the most out of them.
+    </p>
+    <p>
+      I've previously worked on monetization at YouTube, data analytics at Google,
+      missile interceptors at Lockheed Martin and medical sensor device research
+      at UC Berkeley.
+    </p>
+
+    <h3>Writing</h3>
+    Education:
+    <ul>
+      <li><a href="https://medium.com/@iyengar/things-i-learned-teaching-high-school-computer-science-d6560bf92da8">Things I Learned Teaching High School Computer Science</a></li>
+    </ul>
+
+    Technology:
+    <ul>
+      <li><a href="https://medium.com/soda-hall/maslows-hierarchy-of-startups-9d3f46369d8a">Maslow's Hierarchy of Startups</a></li>
+      <li><a href="https://medium.com/soda-hall/d3f4f0bbb91">Actually, we do need more photo sharing apps</a></li>
+      <li><a href="https://medium.com/soda-hall/deep-links-are-just-links-4497415d9518">Deep links are just links</a></li>
+      <li><a href="posts/pair-programming-is-awesome.html">Pair Programming is Awesome</a></li>
+      <li><a href="https://medium.com/@iyengar/world-cup-google-trends-ab80f9ea674">Tim Howard, Soccer in America &amp; Univision</a> (2014)</li>
+      <li><a href="posts/three-key-themes-from-the-first-aws-developer-conference.html">Three Key Themes from the First AWS Developer Conference</a> (2012)</li>
+      <li><a href="posts/beer-and-analytics.html">Beer and Analytics</a> (2009)</li>
+    </ul>
+
+    Personal Development:
+    <ul>
+      <li><a href="https://medium.com/@iyengar/does-working-for-highly-esteemed-companies-actually-help-build-your-career-ff825564963a">Does working for highly esteemed companies actually help build your career?</a></li>
+      <li><a href="https://www.quora.com/You-launched-a-new-feature-that-determines-whether-a-Facebook-message-was-read-by-a-recipient-What-metrics-would-you-collect-to-see-if-the-feature-was-a-success">Product Management Interview Advice</a></li>
+      <li><a href="posts/what-college-doesnt-teach-you-about-being-effective-at-work.html">What college doesn't teach you about being effective at work</a></li>
+    </ul>
+
+    <h3>Teaching</h3>
+    I'm a strong believer in the power of education and I enjoy teaching:
+    <ul>
+      <li>I taught Intro to Computer Science at Balboa High school as part of
+        <a href="http://www.tealsk12.org/">TEALS</a>. I now mentor SF teaching
+        teams to help TEALS acheive it's mission of establishing a computer
+        science program at every high school.
+      </li>
+      <li>I mentored low-income, high-achieving high school students with
+        <a href="http://www.mindsmattersf.org/">Minds Matter of San Francisco</a>.</li>
+      <li>I was a teaching assistant for <a href="http://inst.eecs.berkeley.edu/~cs61c/fa06/">
+          CS 61C</a> the third introductory CS class at UC Berkeley in Fall 2006.
+        You can watch a younger, more handsome version of me give a lecture about
+        <a href="http://webcast.berkeley.edu/stream.php?type=real&amp;webcastid=16336">networking</a>.
+      </li>
+      <li>I helped develop the <a href="http://wla.berkeley.edu">Weiner Lecture Archives</a>,
+        an archive of UC Berkeley CS lectures and corresponding lecture notes.</li>
+    </ul>
+
+    <h3>Photography</h3>
+    <ul>
+      <li><a href="https://medium.com/@iyengar/7-days-in-cuba-1248854131d1">7 days in Cuba</a></li>
+    </ul>
+
+    <h3>Publications</h3>
+    I was a Graduate Student at UC Berkeley.  My research focused on using wireless
+    sensor networks for healthcare applications.
+
+    <ul>
+      <li>
+        <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-154.html">
+          Framework for Body Sensor Networks
+        </a><br>
+        <span class="secondary">
+          Sameer Iyengar<br>
+          <em>Thesis, University of California at Berkeley</em>,
+          May 2008, Berkeley, CA.
+        </span>
+      </li>
+      <li>
+        <a href="http://portal.acm.org/citation.cfm?id=1460268">
+          A Framework for Creating Healthcare Monitoring Applications Using Wireless
+          Body Sensor Networks
+        </a><br>
+        <span class="secondary">
+          Sameer Iyengar, Filippo Tempia, Raffaele Gravina, Antonio Guerrieri,
+          Giancarlo Fortino, Alberto Sangiovanni-Vincentelli<br>
+          <em>ACM International Conference on Body Area Networks (BodyNets</em>),
+          March 2008, Tempe, AZ.
+        </span>
+      </li>
+      <li>
+        <a href="http://portal.acm.org/citation.cfm?id=1460269">
+          CareNet: An Integrated Wireless Sensor Networking Environment for Remote Healthcare
+        </a>
+        [<a href="http://www.truststc.org/pubs/373.html">PDF</a>]<br>
+        <span class="secondary">
+          Yuan Xue, Stephen Wicker, Philip J Kuryloski, Shanshan Jiang, Roozbeh Jafari,
+          Ruzena Bajcsy, Yanchuan Cao, Sameer Iyengar<br>
+          <em>ACM International Conference on Body Area Networks (BodyNets)</em>,
+          March 2008, Tempe, AZ.
+        </span>
+      </li>
+      <li>
+        <a href="http://chess.eecs.berkeley.edu/pubs/396.html">
+          Spine: Software Framework for Wireless Body Sensor Networks
+        </a>
+        (Poster)<br>
+        <span class="secondary">
+          Sameer Iyengar, Alberto Sangiovanni-Vincentelli<br>
+          <em>2008 Berkeley EECS Annual Research Symposium</em>,
+          February 2008, Berkeley, CA.
+        </span>
+      </li>
+      <li>
+        <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-143.html">
+          Distributed Segmentation and Classification of Human Actions Using a Wearable
+          Motion Sensor Network
+        </a><br>
+        <span class="secondary">
+          Allen Yang, Roozbeh Jafari, Philip Kuryloski, Sameer Iyengar, S. Shankar Sastry
+          and Ruzena Bajcsy<br>
+          <em>UC Berkeley EECS Technical Reports</em>,
+          December 6, 2007, Berkeley, CA.
+        </span>
+      </li>
+      <li>
+        <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-143.html">
+          Distributed Segmentation and Classification of Human Actions Using a Wearable
+          Motion Sensor Network
+        </a><br>
+        <span class="secondary">
+          Allen Yang, Roozbeh Jafari, Philip Kuryloski, Sameer Iyengar, S. Shankar Sastry
+          and Ruzena Bajcsy<br>
+          <em>IEEE CVPR Workshop on Human Communicative Behavior Analysis (CVPR4HB)</em>,
+          June 2008, Anchorage, AK.
+        </span>
+      </li>
+      <li>
+        <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-135.html">
+          The Weiner Lecture Archives: An Ontology-Driven Interface for Viewing
+          Synchronized Lectures and Notes
+        </a><br>
+        <span class="secondary">
+          Gene Zhang, Sean Carr, Sameer Iyengar, Hava Edelstein, Albert Liu and
+          Dan Garcia<br>
+          <em>SIGCSE '10 Proceedings of the 41st ACM technical symposium on Computer
+            science education</em>,
+          2010, New York, NY.
+        </span>
+      </li>
+      <li>
+        <a href="http://portal.acm.org/citation.cfm?id=1248072">
+          A Resource Optimized Physical Movement Monitoring Scheme for Environmental and
+          on-Body Sensor Networks
+        </a><br>
+        <span class="secondary">
+          Antti Vehkaoja, Sameer Iyengar, Mari Zakrzewski, Roozbeh Jafari, Ruzena Bajcsy,
+          Steven Glaser, Jukka Lekkala, Shankar Sastry<br>
+          <em>ACM workshop on Systems and Networking Support for Healthcare and Assisted
+            Living Environments (HealthNet)</em>,
+          June 2007, Puerto Rico.
+        </span>
+      </li>
+    </ul>
+
+    <h3>Other Fun Projects</h3>
+    <ul>
+      <li>
+        Online since 1999 - My first project was a site that linked to popular Java games.
+        Thanks to the internet archive, you can still see what an
+        <a href="http://web.archive.org/web/19991001054537/http://sameer.8m.com/">early version</a>
+        and a
+        <a href="http://web.archive.org/web/20011024022229/yenga.hypermart.net/games/">
+          later revision</a> looked like.
+      </li>
+      <li>
+        Notizi: Social RSS reader that recommended news articles based on things a
+        user's friends liked.  I co-founded Notizi along with Casey Ho.
+        <a href="http://www.youtube.com/watch?v=52LvxJH79vw">Watch a screencast</a>
+        of one of our early versions.
+      </li>
+      <li>
+        Smartizen: Application that determined a representatives stance on major issues
+        by analyzing their voting record in congress.  We tagged bills into major topic
+        areas and displayed how each representative voted on bills in that topic.
+      </li>
+      <li>
+        Popular Now:
+        A Google Search Trends and Yahoo! Boss Mashup that tweeted out news stories based
+        on what people were searching for.
+      </li>
+    </ul>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-3182920-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
